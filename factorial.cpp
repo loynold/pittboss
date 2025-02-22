@@ -18,8 +18,10 @@ int main() {
     cin >> num;
     //to check if number entered is negative
     if (num < 0) {
+	    //if the number is negative output the message below
         cout << "no factorial for negative numbers.\n";
     } else {
+	    //if the number is positive call the function (factorial)
         cout << "Factorial of " << num << " is: \n" << factorial(num);
     }
     return 0;
