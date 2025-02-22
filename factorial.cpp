@@ -12,7 +12,7 @@ int factorial(int n) {
 }
 int main() {
     int num;
-    //prompting user to enter input
+    //prompting user to enter a positive number
     cout << "Enter a positive integer: ";
     //collecting the user input
     cin >> num;
